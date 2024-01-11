@@ -13,15 +13,15 @@ export function Transactions(){
                     <tbody>
                         
                         <tr>
-                            <td>Alimentação</td>
-                            <td><PriceHighLight variant="outcome">-R$10.00</PriceHighLight></td>
+                            <td>Desenvolvimento de site</td>
+                            <td><PriceHighLight variant="income">R$ 12.000,00</PriceHighLight></td>
                             <td><TagIcon weight="bold" /> Venda</td>
                             <td><CalendarIcon  weight="bold" /> 11/01/2024</td>
                         </tr>
                         <tr>
-                            <td>Alimentação</td>
-                            <td><PriceHighLight variant="income">R$10.00</PriceHighLight></td>
-                            <td><TagIcon weight="bold" /> Venda</td>
+                            <td>Hamburger</td>
+                            <td><PriceHighLight variant="outcome">-R$59,00</PriceHighLight></td>
+                            <td><TagIcon weight="bold" /> Alimentação</td>
                             <td><CalendarIcon  weight="bold" /> 11/01/2024</td>
                         </tr>
                     </tbody>
