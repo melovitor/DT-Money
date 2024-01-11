@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./styles";
+import { CalendarIcon, PriceHighLight, TagIcon, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions(){
     return (
@@ -11,17 +11,18 @@ export function Transactions(){
             <TransactionsContainer>
                 <TransactionsTable>
                     <tbody>
+                        
                         <tr>
-                            <td width='40%'>Desenvolvimento de site</td>
-                            <td><PriceHighLight variant="income">R$10.00</PriceHighLight></td>
-                            <td>venda</td>
-                            <td>11/01/2024</td>
+                            <td>Alimentação</td>
+                            <td><PriceHighLight variant="outcome">-R$10.00</PriceHighLight></td>
+                            <td><TagIcon weight="bold" /> Venda</td>
+                            <td><CalendarIcon  weight="bold" /> 11/01/2024</td>
                         </tr>
                         <tr>
-                            <td width='40%'>Alimentação</td>
-                            <td><PriceHighLight variant="outcome">-R$10.00</PriceHighLight></td>
-                            <td>venda</td>
-                            <td>11/01/2024</td>
+                            <td>Alimentação</td>
+                            <td><PriceHighLight variant="income">R$10.00</PriceHighLight></td>
+                            <td><TagIcon weight="bold" /> Venda</td>
+                            <td><CalendarIcon  weight="bold" /> 11/01/2024</td>
                         </tr>
                     </tbody>
                 </TransactionsTable>
