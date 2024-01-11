@@ -32,6 +32,7 @@ export const TransactionsTable = styled.table`
     }
 
     @media (max-width: 768px) {
+            border-spacing: 0 1rem;
         td{
             width: 100%;
             display: flex;
