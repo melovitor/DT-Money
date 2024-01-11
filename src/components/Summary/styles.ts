@@ -11,6 +11,24 @@ export const SummaryContainer = styled.div`
     gap: 2rem;
 
     margin-top: -5rem;
+    
+    @media (max-width: 700px) {
+        position: relative;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            width: .1px;
+            height: .1px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+        &-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+    }
+
 `
 
 interface SummaryCardProps {
@@ -36,7 +54,8 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     }
 
     ${props => props.variant === 'green' && css`
-    background-color: ${props.theme['green-700']};
+        background-color: ${props.theme['green-700']};
     `}
-    
+
+
 `
