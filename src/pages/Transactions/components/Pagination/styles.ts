@@ -8,7 +8,6 @@ export const PaginationContainer = styled.footer`
     position: absolute;
 
     width: 100%;
-    max-width: 1120px;
     margin: 0 auto;
     padding: 0 1.5rem;
     bottom: 1rem;
