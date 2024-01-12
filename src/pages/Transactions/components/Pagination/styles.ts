@@ -5,7 +5,7 @@ export const PaginationContainer = styled.footer`
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
 
     width: 100%;
     margin: 0 auto;
