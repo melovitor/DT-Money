@@ -12,7 +12,7 @@ export const SummaryContainer = styled.div`
 
     margin-top: -5rem;
     
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
         position: relative;
         overflow: scroll;
 
