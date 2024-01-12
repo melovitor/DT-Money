@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { SearchForm } from "./SearchForm";
+import { Pagination } from "./components/Pagination";
 import { CalendarIcon, PriceHighLight, TagIcon, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions(){
@@ -28,6 +29,7 @@ export function Transactions(){
                     </tbody>
                 </TransactionsTable>
             </TransactionsContainer>
+            <Pagination/>
         </div>
     )
 }

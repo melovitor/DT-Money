@@ -13,7 +13,7 @@ export const SearchFormContainer = styled.form`
         color: ${props => props.theme['gray-300']};
         padding: 1rem;
         &::placeholder {
-            color: ${props => props.theme['gray-600']};
+            color: ${props => props.theme['gray-500']};
         }
     }
 
